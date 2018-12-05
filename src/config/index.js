@@ -7,7 +7,7 @@ const config = {
   dev: {
     port: 3000,
     outputPath: path.join(process.cwd(), "./"),
-    publicPath: isProd ? "https://cdn.zhw-island.com/" : "/"
+    publicPath: "/"
   },
   website: {
     pageName(page){
@@ -24,11 +24,11 @@ const config = {
       pageSize: 5
     },
     github: {
-      clientID: "2fa6841ea796af21b439",
-      clientSecret: "4e2196768a4ce9ce143bf2b2ba378efcbd8081f8",
-      repo: "zhw2590582.github.io",
-      owner: "zhw2590582",
-      admin: ["zhw2590582"]
+      clientID: "7eade918eada70a8fe24",
+      clientSecret: "9c322cdfe9ad8cc18768090c5e26f139f868a50b",
+      repo: "blog-issue",
+      owner: "fydy",
+      admin: ["fydy"]
     },
     plugins: {
       loading: "#000",
